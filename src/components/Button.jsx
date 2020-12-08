@@ -3,7 +3,7 @@ import "./styles.css";
 
 function Button (props) {
     return(
-        <button type="button" class="btn btn-primary">{props.btnName}</button>
+        <button type="input" class="btn btn-primary" style={props.style}>{props.btnName}</button>
     )
 }
 

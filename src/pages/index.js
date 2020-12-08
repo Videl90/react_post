@@ -12,9 +12,7 @@ const fbIcon = <FontAwesomeIcon icon={faFacebook} color="#75c6a5" />
 const igIcon = <FontAwesomeIcon icon={faInstagram} color="#75c6a5"/>
 const twIcon = <FontAwesomeIcon icon={faTwitter} color="#75c6a5" />
 
-const style={
-    color:"red"
-}
+
 
 function PostDiscount (){
     return(
@@ -44,14 +42,13 @@ function PostDiscount (){
             <div className="row btns">
                 <div className="col-sm">
                     <Button
-                        style={{color:"red"}}
+                        style={{backgroundColor: "#ffffff", color:"#0069d9"}}
                         btnName="Close"
                     />
                 </div>
                 <div className="col-sm publishBtn">
                     <Button
                         btnName="Preview post before publishing"
-                        style={style}
                     />
                 </div>
             </div>

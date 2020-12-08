@@ -7,23 +7,30 @@ import { faSmile } from "@fortawesome/free-solid-svg-icons"
 
 const smileIcon = <FontAwesomeIcon icon={faSmile} color="#75c6a5" />
 
+
+
 function Post() {
     return (
+        
         <div className="card">
             <div className="card-body">
                 <h5 className="card-title">Bakery Day</h5>
                 <img className="card-img-top" src={photo} alt="bakery offer"/>
                 <div className="form-group row">
                     <label for="exampleFormControlTextarea1"></label>
-                    <textarea className="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="Write your post"></textarea>
+                    <textarea className="form-control" id="TextArea1" rows="1" placeholder="Write your post" maxLength="250"></textarea>
                     <Button
                         btnName="Edit Image"
+                        type="file"
                     />     
                 </div>
                 <div className="row">
-                    <div className="col-sm"></div>
+                  
+                    <div className="col-sm">
+                        
+                    </div>
                     <div className="col-sm counter">
-                        <p>{smileIcon} 0/250</p>
+                        <p>{smileIcon}0/250</p>
                     </div>
                 </div>
             </div>
