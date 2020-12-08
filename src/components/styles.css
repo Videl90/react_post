@@ -1,0 +1,72 @@
+.title{
+    font-size:24px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.subtitle{
+    font-size:14px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    padding:20px;
+}
+
+.form-check {
+    margin-top:5px;
+    width:220px;
+    border: solid 1px;
+    border-color:#b3b3b3;
+    border-radius: 5px;
+    padding:10px 0 10px 31px;
+    font-size:14px;
+}
+
+.card-img-top{
+    width:540px;
+}
+
+.card {
+    width:600px;
+}
+
+.form-group{
+    margin-top:10px;
+}
+
+.form-control{
+    width:430px;
+    margin-left:15px;
+}
+
+.btn-primary {
+    height: 50px;
+    margin-left:10px;
+    border-radius: 20px;
+}
+
+.btns{
+    margin-top:10px;
+}
+
+.publishBtn{
+    margin-left:570px;
+}
+
+.counter{
+    margin-left:350px;
+}
+
+
+@media only screen and (max-width:767px) {
+    .publishBtn{
+        margin-left:345px;
+        margin-top:-50px;
+    }
+
+    .card {
+        margin-top:10px;
+    }
+
+}
